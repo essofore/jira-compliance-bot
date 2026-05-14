@@ -4,7 +4,7 @@
 
 MedTech Compliance Tracker is a Jira app for medical device software teams. When a new Jira issue is created, the app automatically detects regulatory obligations and creates compliance sub-tasks — each with step-by-step instructions mapped to the exact clause of the relevant standard.
 
-No configuration is required. Install the app and it works immediately.
+No configuration is required other than enabling the app on a per-project basis. Install the app, enable it on relevant projects and it works immediately.
 
 ---
 
@@ -22,8 +22,9 @@ No configuration is required. Install the app and it works immediately.
 3. Accept the requested permissions:
    - **Read Jira issues** — to scan issue content for regulatory signals
    - **Write Jira issues** — to create compliance sub-tasks
+4. Enable the app by navigating to `Space Settings -> Apps -> MedTech Compliance Tracker Settings`. The URL for this page is of the form `https://your-account.atlassian.net/jira/software/c/projects/project-key/settings/apps/acct-uuid/app-uuid`.
 
-That's it. No settings page. No project configuration. The app is active immediately.
+![alt-text](images/settings.png)
 
 ---
 
@@ -98,7 +99,10 @@ Not in this version. The bundled ruleset covers the full IEC 62304 lifecycle and
 Delete it. The app only runs on issue creation, so no new sub-tasks will be created for that issue unless it is re-created.
 
 **Does the app work on existing issues?**
-No. The app triggers only when a new issue is created. It does not backfill compliance sub-tasks for existing issues.
+Yes. Run the backfill tool to create compliance sub-tasks for existing issues. The backfill tool can be found under the main App page.
+The URL for this page is of the form `https://your-account.atlassian.net/jira/apps/acct-uuid/app-uuid`
+
+![alt-text](images/backfill.png)
 
 ---
 
