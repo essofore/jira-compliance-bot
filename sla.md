@@ -36,7 +36,7 @@ The App will:
 
 ### 3.2 Rule accuracy
 
-Compliance rules in `rules.json` are maintained to reflect the standards listed in the App description (IEC 62304, ISO 14971, IEC 62366-1, IEC 81001-5-1 / AAMI TIR57, ISO 13485, 21 CFR Part 820, MDR 2017/745, HIPAA, GDPR). When a covered standard is revised and the revision materially affects the rule set, an update will be released within **90 days** of the effective date of the revision.
+Compliance rules are maintained to reflect the standards listed in the App description (IEC 62304, ISO 14971, IEC 62366-1, IEC 81001-5-1 / AAMI TIR57, ISO 13485, 21 CFR Part 820, MDR 2017/745, HIPAA, GDPR). When a covered standard is revised and the revision materially affects the rule set, an update will be released within **90 days** of the effective date of the revision.
 
 ### 3.3 Compatibility
 
@@ -74,7 +74,7 @@ This SLA does not apply to:
 
 ## 6. Planned maintenance
 
-Because the App runs on Atlassian Forge, it has no independent maintenance windows. App updates are deployed as Forge function deployments and take effect within minutes with no service interruption to active Jira users. Changes to `manifest.yml` (new scopes or modules) require a brief Forge install step that does not affect existing data.
+Because the App runs on Atlassian Forge, it has no independent maintenance windows. App updates are deployed as Forge function deployments and take effect within minutes with no service interruption to active Jira users. Changes to app manifest (new scopes or modules) require a brief Forge install step that does not affect existing data.
 
 ---
 
