@@ -22,7 +22,7 @@ No configuration is required other than enabling the app on a per-project basis.
 3. Accept the requested permissions:
    - **Read Jira issues** — to scan issue content for regulatory signals
    - **Write Jira issues** — to create compliance sub-tasks
-4. Enable the app by navigating to `Space Settings -> Apps -> MedTech Compliance Tracker Settings`. The URL for this page is of the form `https://your-account.atlassian.net/jira/software/c/projects/project-key/settings/apps/acct-uuid/app-uuid`.
+4. Enable the app by navigating to `Space Settings -> Apps -> MedTech Compliance Tracker Settings`. The URL for this page is of the form `https://your-account.atlassian.net/jira/software/c/projects/project-key/settings/apps/{appId}/{envId}` [[1](https://developer.atlassian.com/platform/forge/manifest-reference/modules/jira-project-settings-page/)].
 
 ![alt-text](images/settings.png)
 
@@ -99,10 +99,8 @@ Not in this version. The bundled ruleset covers the full IEC 62304 lifecycle and
 Delete it. The app only runs on issue creation, so no new sub-tasks will be created for that issue unless it is re-created.
 
 **Does the app work on existing issues?**
-Yes. Run the backfill tool to create compliance sub-tasks for existing issues. The backfill tool can be found under the main App page.
-The URL for this page is of the form `https://your-account.atlassian.net/jira/apps/acct-uuid/app-uuid`
-
-![alt-text](images/backfill.png)
+Yes. Run the backfill tool to create compliance sub-tasks for existing issues. The backfill tool can be found under the app settings page - the same
+page that you use to enable or disable the app.
 
 ---
 
