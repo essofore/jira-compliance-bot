@@ -1,7 +1,7 @@
 # Service Level Agreement — MedTech Compliance Tracker
 
 **Effective date:** 2026-05-25
-**Vendor:** Essofore (support@essofore.com)
+**Vendor:** Essofore LLC (support@essofore.com)
 
 ---
 
