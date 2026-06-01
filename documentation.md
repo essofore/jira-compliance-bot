@@ -19,10 +19,7 @@ No configuration is required other than enabling the app on a per-project basis.
 
 1. Go to the [Atlassian Marketplace listing](#) and click **Get it now**.
 2. Select your Jira Cloud site and follow the installation prompts.
-3. Accept the requested permissions:
-   - **Read Jira issues** — to scan issue content for regulatory signals
-   - **Write Jira issues** — to create compliance sub-tasks
-4. Enable the app by navigating to `Space Settings -> Apps -> MedTech Compliance Tracker Settings`. The URL for this page is of the form `https://your-account.atlassian.net/jira/software/c/projects/project-key/settings/apps/{appId}/{envId}` [[1](https://developer.atlassian.com/platform/forge/manifest-reference/modules/jira-project-settings-page/)].
+3. Enable the app by navigating to `Space Settings -> Apps -> MedTech Compliance Tracker Settings`. The URL for this page is of the form `https://your-account.atlassian.net/jira/software/c/projects/project-key/settings/apps/{appId}/{envId}` [[1](https://developer.atlassian.com/platform/forge/manifest-reference/modules/jira-project-settings-page/)].
 
 ![alt-text](images/settings.png)
 

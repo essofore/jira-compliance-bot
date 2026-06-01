@@ -28,6 +28,7 @@ This Addendum modifies and supplements the Atlassian Marketplace Standard End Us
 ### 2. INTELLECTUAL PROPERTY AND OUTPUTS
 
 **2.1 Ownership of Logic.** As between the parties, Provider retains all rights, title, and interest in the underlying scanning logic, proprietary regex/AI rules, clause mappings, and instructional templates embedded within the Software.
+
 **2.2 License to Generated Tasks.** To the extent the Software generates text, sub-tasks, or workflow items inside Customer’s Jira instance ("Outputs"), Provider hereby grants Customer a perpetual, worldwide, non-exclusive, non-transferable, royalty-free license to use, modify, and reproduce those Outputs solely for Customer's internal business compliance purposes.
 
 ---
@@ -35,6 +36,7 @@ This Addendum modifies and supplements the Atlassian Marketplace Standard End Us
 ### 3. HEALTH DATA, PRIVACY, AND DATA SECURITY
 
 **3.1 Patient Data Restrictions.** While the Software is designed to help teams track compliance infrastructure (e.g., HIPAA/GDPR framework implementation), Customer is strongly discouraged from inputting actual, unencrypted Protected Health Information (PHI) or personal data of patients into Jira issue fields scanned by the Software.
+
 **3.2 Data Residency and HIPAA Status.** The Software is built on the Atlassian Forge framework and executes entirely within the Customer's Atlassian account.
  * **No External Transmission:** The Software scans Jira issues programmatically within the customer's Atlassian account; Provider does not transmit, persistently store, or log the text contents of Customer's Jira tickets on external servers under Provider's control.
  * **HIPAA Exclusion:** Because Provider has zero access to or visibility into Customer's data or any Protected Health Information (PHI), the parties agree that Provider does not act as a "Business Associate" as defined under HIPAA. Customer's existing data protection and HIPAA agreements with Atlassian solely govern the processing of all data within the Jira environment.
@@ -44,6 +46,7 @@ This Addendum modifies and supplements the Atlassian Marketplace Standard End Us
 ### 4. BULK OPERATIONS AND BACKFILL LIMITATIONS
 
 **4.1 Operational Scope.** The Software provides a "Backfill" function allowing the bulk scanning of legacy Jira issues. Customer acknowledges that running bulk operations on exceptionally large backlogs may be subject to Atlassian API rate limits, throttling, or performance degradation within Customer's Jira instance.
+
 **4.2 Limitation of Operational Liability.** Provider shall not be liable for any operational delays, temporary service interruptions, or Jira instance slowdowns resulting from Customer’s execution of bulk backfill operations. Customer is advised to run large backfills during non-peak business hours.
 
 ---
